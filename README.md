@@ -2,7 +2,7 @@
 
 Official implementatino of **VideoDirectorGPT**, a novel framework for consistent multi-scene video generation that uses the knowledge of LLMs for video content planning and grounded video generation.
 
-Code coming soon.
+Code coming soon!
 
 [Han Lin](https://hl-hanlin.github.io/),
 [Jaemin Cho](https://j-min.io),
