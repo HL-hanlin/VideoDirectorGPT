@@ -1,9 +1,8 @@
 
-# VideoDirectorGPT: Consistent Multi-scene\\Video Generation via LLM-Guided Planning
+# VideoDirectorGPT: Consistent Multi-scene Video Generation via LLM-Guided Planning
 
 Official implementatino of **VideoDirectorGPT**, a novel framework for consistent multi-scene video generation that uses the knowledge of LLMs for video content planning and grounded video generation.
 
-**[Visual Programming for Text-to-Image Generation and Evaluation](https://vp-t2i.github.io/)**
 
 [Han Lin](https://hl-hanlin.github.io/),
 [Jaemin Cho](https://j-min.io),
@@ -12,6 +11,8 @@ Official implementatino of **VideoDirectorGPT**, a novel framework for consisten
 
 [[Project Page](https://videodirectorgpt.github.io)]
 [[Paper](https://arxiv.org/abs/2309.15091)]
+
+#### Code comming soon!
 
 
 <br>
