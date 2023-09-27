@@ -11,4 +11,4 @@ Code coming soon.
 
 
 [[Project Page](https://videodirectorgpt.github.io)]
-
+[[Paper Link](https://arxiv.org/abs/2309.15091)]
