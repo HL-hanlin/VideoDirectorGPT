@@ -40,24 +40,35 @@ Illustration of our two-stage framework for long, multi-scene video generation f
 Our proposed VideoDirectorGPT framework substantially improves layout and movement control
 
 <table class="center">
-  <td style="text-align:center;" width="170"></td>
-  <td style="text-align:center;" width="170">"pushing stuffed animal from <strong>left to right</strong>"</td>
-  <td style="text-align:center;" width="170">"pushing pear from <strong>right to left</strong>"</td>
-  <td style="text-align:center;" width="170">"a pizza is to the <strong>left</strong> of an elephant"</td>
-  <td style="text-align:center;" width="170">"<strong>four</strong> frisbees"</td>
+  <td style="text-align:center;" width="200"></td>
+  <td style="text-align:center;" width="200">"pushing stuffed animal from <strong>left to right</strong>"</td>
+  <td style="text-align:center;" width="200">"pushing pear from <strong>right to left</strong>"</td>
   <tr>
-  <td style="text-align:center;" width="170">ModelScopeT2V</td>
-  <td><img src=assets/action_modelscope_1.gif width="170"></td>
-  <td><img src=assets/action_modelscope_2.gif width="170"></td>
-  <td><img src=assets/vpeval_modelscope_1.gif width="170"></td>
-  <td><img src=assets/vpeval_modelscope_2.gif width="170"></td>
+  <td style="text-align:center;" width="200">ModelScopeT2V</td>
+  <td><img src=assets/action_modelscope_1.gif width="200"></td>
+  <td><img src=assets/action_modelscope_2.gif width="200"></td>
   <tr>
-  <td style="text-align:center;" width="170">VideoDirectorGPT (Ours)</td>
-  <td><img src=assets/action_ours_1.gif width="170"></td>
-  <td><img src=assets/action_ours_2.gif width="170"></td>
-  <td><img src=assets/vpeval_ours_1.gif width="170"></td>
-  <td><img src=assets/vpeval_ours_2.gif width="170"></td>
+  <td style="text-align:center;" width="200">VideoDirectorGPT<br>(Ours)</td>
+  <td><img src=assets/action_ours_1.gif width="200"></td>
+  <td><img src=assets/action_ours_2.gif width="200"></td>
 </table >
+
+
+
+<table class="center">
+  <td style="text-align:center;" width="200"></td>
+  <td style="text-align:center;" width="200">"a pizza is to the <strong>left</strong> of an elephant"</td>
+  <td style="text-align:center;" width="200">"<strong>four</strong> frisbees"</td>
+  <tr>
+  <td style="text-align:center;" width="200">ModelScopeT2V</td>
+  <td><img src=assets/vpeval_modelscope_1.gif width="200"></td>
+  <td><img src=assets/vpeval_modelscope_2.gif width="200"></td>
+  <tr>
+  <td style="text-align:center;" width="200">VideoDirectorGPT<br>(Ours)</td>
+  <td><img src=assets/vpeval_ours_1.gif width="200"></td>
+  <td><img src=assets/vpeval_ours_2.gif width="200"></td>
+</table >
+
 
 
 
@@ -69,17 +80,17 @@ Our proposed VideoDirectorGPT framework substantially improves layout and moveme
 
 
 <table class="center">
-  <td style="text-align:center;" width="170"></td>
-  <td style="text-align:center;" width="170">"make caraway cakes"</td>
-  <td style="text-align:center;" width="170">"make peach melba"</td>
+  <td style="text-align:center;" width="200"></td>
+  <td style="text-align:center;" width="200">"make caraway cakes"</td>
+  <td style="text-align:center;" width="200">"make peach melba"</td>
   <tr>
-  <td style="text-align:center;" width="170">ModelScopeT2V</td>
-  <td><img src=assets/hirest_modelscope_1.gif width="170"></td>
-  <td><img src=assets/hirest_modelscope_2.gif width="170"></td>
+  <td style="text-align:center;" width="200">ModelScopeT2V</td>
+  <td><img src=assets/hirest_modelscope_1.gif width="200"></td>
+  <td><img src=assets/hirest_modelscope_2.gif width="200"></td>
   <tr>
-  <td style="text-align:center;" width="170">VideoDirectorGPT (Ours)</td>
-  <td><img src=assets/hirest_ours_1.gif width="170"></td>
-  <td><img src=assets/hirest_ours_2.gif width="170"></td>
+  <td style="text-align:center;" width="200">VideoDirectorGPT<br>(Ours)</td>
+  <td><img src=assets/hirest_ours_1.gif width="200"></td>
+  <td><img src=assets/hirest_ours_2.gif width="200"></td>
 </table >
 
 
@@ -93,20 +104,26 @@ Our model is able to generate a detailed video plan that properly expands the or
 ### List of Scene Descriptions ➡ Multi-Scene Video 
 
 **Scene 1**: <strong><span style="color:red">mouse</span></strong> is holding a book and makes a happy face.
+
 **Scene 2**: <strong><span style="color:red">he</span></strong> looks happy and talks.
+
 **Scene 3**: <strong><span style="color:red">he</span></strong> is pulling petals off the flower.
+
 **Scene 4**: <strong><span style="color:red">he</span></strong> is ripping a petal from the flower.
+
 **Scene 5**: <strong><span style="color:red">he</span></strong> is holding a flower by <strong><span style="color:red">his</span></strong> right paw.
+
 **Scene 6**: one paw pulls the last petal off the flower.
+
 **Scene 7**: <strong><span style="color:red">he</span></strong> is smiling and talking while holding a flower on <strong><span style="color:red">his</span></strong> right paw.
 
 
 <table class="center">
-  <td style="text-align:center;" width="170">ModelScopeT2V</td>
-  <td style="text-align:center;" width="170">VideoDirectorGPT (Ours)</td>
+  <td style="text-align:center;" width="200">ModelScopeT2V</td>
+  <td style="text-align:center;" width="200">VideoDirectorGPT<br>(Ours)</td>
   <tr>
-  <td><img src=assets/coref_modelscope_1.gif width="170"></td>
-  <td><img src=assets/coref_ours_1.gif width="170"></td>
+  <td><img src=assets/coref_modelscope_1.gif width="200"></td>
+  <td><img src=assets/coref_ours_1.gif width="200"></td>
 </table >
 
 
@@ -126,31 +143,31 @@ Users can flexibly provide either text-only or image+text descriptions to place 
 
 
 <table class="center">
-  <td style="text-align:center;" width="170">Input Type</td>
+  <td style="text-align:center;" width="100">Input Type</td>
   <td style="text-align:center;" width="170">Input Example</td>
   <td style="text-align:center;" width="170">Scene 1: a <span style="color:red"> < S ></span> then gets up from a plush beige bed.</td>
   <td style="text-align:center;" width="170">Scene 2: a <span style="color:red"> < S ></span> goes to the cream-colored kitchen and eats a can of gourmet cat snack.</td>
   <td style="text-align:center;" width="170">Scene 3: a <span style="color:red"> < S ></span> sits next to a large floor-to-ceiling window.</td>
   <tr>
-  <td style="text-align:center;" width="150">Text-Only Input</td>
+  <td style="text-align:center;" width="100">Text-Only Input</td>
   <td style="text-align:center;" width="170"><span style="color:red">< S > </span>= "white cat"</td>
   <td><img src=assets/white_cat_1.gif width="170"></td>
   <td><img src=assets/white_cat_2.gif width="170"></td>
   <td><img src=assets/white_cat_3.gif width="170"></td>
   <tr>
-  <td style="text-align:center;" width="150">Image+Text Input</td>
+  <td style="text-align:center;" width="100">Image+Text Input</td>
   <td><img src=assets/cats.png width="170"></td>
   <td><img src=assets/cat_1.gif width="170"></td>
   <td><img src=assets/cat_2.gif width="170"></td>
   <td><img src=assets/cat_3.gif width="170"></td>
   <tr>
-  <td style="text-align:center;" width="150">Image+Text Input</td>
+  <td style="text-align:center;" width="100">Image+Text Input</td>
   <td><img src=assets/siamese_cats.png width="170"></td>
   <td><img src=assets/siamese_cat_1.gif width="170"></td>
   <td><img src=assets/siamese_cat_2.gif width="170"></td>
   <td><img src=assets/siamese_cat_3.gif width="170"></td>
   <tr>
-  <td style="text-align:center;" width="150">Image+Text Input</td>
+  <td style="text-align:center;" width="100">Image+Text Input</td>
   <td><img src=assets/teddy_bears.png width="170"></td>
   <td><img src=assets/teddy_bear_1.gif width="170"></td>
   <td><img src=assets/teddy_bear_2.gif width="170"></td>
