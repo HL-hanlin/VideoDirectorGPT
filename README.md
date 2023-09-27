@@ -103,18 +103,12 @@ Our model is able to generate a detailed video plan that properly expands the or
 
 ### List of Scene Descriptions ➡ Multi-Scene Video 
 
-**Scene 1**: <strong><span style="color:red">mouse</span></strong> is holding a book and makes a happy face.
-
-**Scene 2**: <strong><span style="color:red">he</span></strong> looks happy and talks.
-
-**Scene 3**: <strong><span style="color:red">he</span></strong> is pulling petals off the flower.
-
-**Scene 4**: <strong><span style="color:red">he</span></strong> is ripping a petal from the flower.
-
-**Scene 5**: <strong><span style="color:red">he</span></strong> is holding a flower by <strong><span style="color:red">his</span></strong> right paw.
-
-**Scene 6**: one paw pulls the last petal off the flower.
-
+**Scene 1**: <strong><span style="color:red">mouse</span></strong> is holding a book and makes a happy face.<br>
+**Scene 2**: <strong><span style="color:red">he</span></strong> looks happy and talks.<br>
+**Scene 3**: <strong><span style="color:red">he</span></strong> is pulling petals off the flower.<br>
+**Scene 4**: <strong><span style="color:red">he</span></strong> is ripping a petal from the flower.<br>
+**Scene 5**: <strong><span style="color:red">he</span></strong> is holding a flower by <strong><span style="color:red">his</span></strong> right paw.<br>
+**Scene 6**: one paw pulls the last petal off the flower.<br>
 **Scene 7**: <strong><span style="color:red">he</span></strong> is smiling and talking while holding a flower on <strong><span style="color:red">his</span></strong> right paw.
 
 
