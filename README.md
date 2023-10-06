@@ -17,7 +17,7 @@ Official implementatino of **VideoDirectorGPT**, a novel framework for consisten
 [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)
 
 
-#### Code comming soon!
+#### Code coming soon!
 
 
 <br>
