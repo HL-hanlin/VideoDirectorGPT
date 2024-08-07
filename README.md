@@ -1,5 +1,5 @@
 
-# VideoDirectorGPT: Consistent Multi-scene Video Generation via LLM-Guided Planning
+# VideoDirectorGPT: Consistent Multi-scene Video Generation via LLM-Guided Planning (COLM 2024)
 
 Official implementatino of **VideoDirectorGPT**, a novel framework for consistent multi-scene video generation that uses the knowledge of LLMs for video content planning and grounded video generation.
 
